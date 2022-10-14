@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "helveticaregular";
+  src: url("../fonts/Helvetica.ttf") format("woff2"),
+    url("../fonts/Helvetica.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "acumin_proregular";
+  src: url("../fonts/Acumin-RPro.otf") format("woff2"),
+    url("../fonts/Acumin-RPro.otf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  padding-bottom: 234px;
+}
+header {
+  position: relative;
+  height: 50px;
+  width: 1140px;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  display: inline-block;
+  margin-top: 18px;
+  margin-left: 20px;
+  color: #fa6980;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "helveticaregular";
+}
+.navigation {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 92px;
+  margin-right: 40px;
+}
+.list-item {
+  display: inline-block;
+  font-size: 11px;
+  margin-right: 27px;
+  font-family: "helveticaregular";
+}
+.active {
+  font-weight: bold;
+}
+.profile-picture {
+  position: absolute;
+  left: 457px;
+  top: 11px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+/**/
+section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "helveticaregular";
+  display: block;
+  margin-left: 140px;
+}
+.container {
+  display: inline-block;
+  width: 360px;
+  margin-left: 70px;
+  margin-top: 40px;
+  position: relative;
+  background-color: #ffffff;
+}
+.image {
+  width: 100%;
+  height: 180px;
+}
+.heading {
+  position: absolute;
+  left: 40px;
+  top: 28px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "helveticaregular";
+  color: #ffffff;
+}
+.text {
+  height: 38px;
+  width: 280px;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "acumin_proregular";
+  color: #a6adb4;
+  margin-left: 40px;
+  margin-top: 66px;
+}
+.time {
+  vertical-align: middle;
+  margin-left: 40px;
+  margin-top: 10px;
+  position: relative;
+}
+.clock {
+  width: 16px;
+  height: 16px;
+}
+.minutes {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: oblique;
+  font-family: "helveticaregular";
+  color: #a6adb4;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  position: absolute;
+  top: 1.1px;
+}
+.section2 {
+  position: relative;
+}
+.container1 {
+  position: relative;
+  margin-left: 70px;
+  margin-top: 40px;
+  height: 900px;
+  width: 760px;
+  display: inline-block;
+}
+.textcontent {
+  position: absolute;
+  top: 194px;
+  left: 308px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "helveticaregular";
+  color: #ffffff;
+}
+.bridge-image {
+  width: 760px;
+  height: 430px;
+  margin-bottom: 40px;
+}
+.container2 {
+  display: inline-block;
+  position: absolute;
+  top: 64px;
+  margin-left: 15px;
+  margin-bottom: 238px;
+  width: 360px;
+  height: 896px;
+}
+.container2 img {
+  margin-bottom: 102px;
+}
